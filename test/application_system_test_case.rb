@@ -8,5 +8,4 @@ class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
       browser: :chrome, desired_capabilities: capabilities
   end
   driven_by :selenium, using: :headless_chrome
-  # driven_by :selenium, using: :chrome, screen_size: [1400, 1400]
 end
